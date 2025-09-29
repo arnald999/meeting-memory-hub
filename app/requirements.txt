@@ -1,0 +1,38 @@
+# FastAPI & ASGI server
+fastapi==0.112.2
+uvicorn[standard]==0.23.2
+
+# Database
+SQLAlchemy==2.0.22
+psycopg2-binary==2.9.10
+alembic==1.12.0       # for migrations
+
+# Redis / Celery
+celery==5.5.2
+redis==5.3.1
+
+# Supabase storage
+supabase==1.0.0       # official python client
+python-dotenv==1.0.0  # load .env
+
+# Vector DB (Qdrant)
+qdrant-client==1.9.0
+
+# Neo4j
+neo4j==5.28.2
+
+# OCR / File Processing
+pillow==11.3.0
+pytesseract==0.3.13
+
+# Speech-to-Text / Audio
+whisper==1.1.10
+
+# Optional: OpenAI / HuggingFace
+openai==1.29.0
+transformers==4.56.2
+torch==2.8.0
+
+# Utilities
+requests==2.31.0
+python-multipart==0.0.6   # for file uploads
