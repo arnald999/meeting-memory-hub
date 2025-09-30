@@ -2,8 +2,7 @@ from pydantic import BaseSettings
 
 class Settings(BaseSettings):
     DATABASE_URL: str
-    upstash_redis_url: str
-    upstash_redis_token: str
+    REDIS_URL: str
     supabase_url: str
     supabase_anon_key: str
     qdrant_url: str
